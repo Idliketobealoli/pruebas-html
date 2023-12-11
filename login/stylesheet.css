@@ -86,6 +86,7 @@ input:focus ~ label,
 input:valid ~ label,
 input:invalid:not(:placeholder-shown) ~ label {
     top: -5px;
+    font-size: 0.8rem;
 }
 
 .input-group input {
