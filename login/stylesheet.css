@@ -108,6 +108,11 @@ input:invalid:not(:placeholder-shown) ~ label {
     top: 20px;
 }
 
+.input-group ion-icon[name="eye-off-outline"],
+.input-group ion-icon[name="eye-outline"] {
+    cursor: pointer;
+}
+
 .remember-forget {
     margin: 35px 0;
     font-size: 0.85rem;
