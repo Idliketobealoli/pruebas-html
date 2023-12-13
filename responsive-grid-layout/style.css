@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: auto;
+    max-width: 1200px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid dodgerblue;
+    padding: 1rem;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: white;
+}
